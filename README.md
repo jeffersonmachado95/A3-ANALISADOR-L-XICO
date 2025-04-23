@@ -1,31 +1,43 @@
-# Analisador Léxico - Ferramenta Educacional para Ensino de Programação
+# Analisador Léxico - Ferramenta Educacional para Ensino de Programação 🚀
 
-Este projeto implementa um analisador léxico em Python que visa ajudar estudantes a aprenderem conceitos fundamentais de linguagens de programação. A ferramenta pode ser utilizada como parte de um compilador de uma linguagem simplificada, similar ao Portugol, permitindo que os alunos compreendam a lógica de programação de maneira didática.
+Este projeto implementa um **analisador léxico** em Python com fins educacionais, desenvolvido por alunos da **Faculdade Una Sete Lagoas** 🎓. A proposta é auxiliar no ensino de lógica de programação para crianças, simulando um compilador de uma linguagem simplificada inspirada no Portugol.
 
-## Objetivo
+O projeto foi idealizado e construído por um time dedicado de estudantes que buscou unir tecnologia e educação de forma didática e acessível.
 
-O principal objetivo deste projeto é fornecer uma ferramenta que possa ler código-fonte em uma linguagem simplificada e identificar tokens (como palavras-chave, identificadores, operadores, números e símbolos) para que os alunos possam compreender a estrutura do código e a importância de cada elemento em uma linguagem de programação.
+👨‍🏫 **Desenvolvido por**:
+- Jefferson Henrique Machado
+- João Vitor Oliveira
+- Diego Magno Lopes Martins
+- Alcides José Cândido Neto
+- Guilherme Pereira
+- Marcos Vinicius de Oliveira
+- Vinicius Moura Campelo
+- Marconi Maciel Guimarães Junior
+- Marcus Vinicius Marques França Smith
+- Arthur Diniz Souza Silva
 
-## Funcionalidades
+## Objetivo 🎯
 
-- **Leitura de código-fonte**: O código-fonte é lido a partir de um arquivo `.txt`.
-- **Análise de tokens**: Identificação e classificação de tokens como palavras-chave, identificadores, operadores, números, símbolos e strings.
-- **Ignorar espaços em branco e comentários**: Comentários e espaços em branco são ignorados na análise.
-- **Saída didática**: A saída é visualmente organizada e didática, com a descrição dos tipos de tokens identificados.
+Desenvolver um analisador léxico que ajude crianças e iniciantes a entenderem como funciona a análise de código em linguagens de programação. A ferramenta reconhece palavras-chave, identificadores, operadores, números e outros elementos fundamentais.
 
-## Tecnologias Utilizadas
+## Funcionalidades 📌
 
-- **Python**: Linguagem de programação principal utilizada para o desenvolvimento do analisador.
-- **Regular Expressions (Regex)**: Utilizado para a identificação de tokens.
-- **Colorama**: Biblioteca para formatação de saída no terminal com cores.
+- **Identificação de tokens**: O analisador identifica categorias como `KEYWORDS`, `IDENTIFIER`, `NUMBER`, `OPERATOR`, `SYMBOL` e `STRING`.
+- **Saída didática e colorida**: Os tokens são exibidos com descrição e destaque no terminal.
+- **Organização visual**: Tokens são agrupados por tipo para facilitar o entendimento.
 
-## Como Rodar o Projeto
+## Tecnologias Utilizadas ⚙️
+
+- **Python** 🐍
+- **Colorama** 🎨 para estilizar a saída no terminal
+- **Regex (Expressões Regulares)** para reconhecimento de padrões no código
+
+## Como Executar o Projeto 🏁
 
 ### Pré-requisitos
 
-Certifique-se de ter o Python instalado em sua máquina. Para instalar o Python, acesse [python.org](https://www.python.org/).
-
-Você também precisará instalar a biblioteca `colorama` para uma melhor visualização da saída no terminal:
+- Python 3 instalado ([Download Python](https://www.python.org/))
+- Instale a biblioteca colorama:
 
 ```bash
 pip install colorama
