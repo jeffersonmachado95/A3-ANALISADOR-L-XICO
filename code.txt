@@ -1,0 +1,17 @@
+let idade = 16;
+let nome = "Lucas";
+
+if (idade >= 18) {
+  let resultado = "Pode votar";
+  return resultado;
+} else {
+  let resultado = "Não pode votar ainda";
+  return resultado;
+}
+
+let contador = 0;
+while (contador < idade) {
+  contador = contador + 1;
+}
+
+return contador;
